@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert Website name</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    Hello gays
+    <!-- <script src="script.js"></script> -->
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae libero hic, delectus reiciendis, quas ipsum minus dolore commodi inventore neque sunt vitae vel nemo officia? Dignissimos et possimus nesciunt quas.</p>
+
+     <!-- table -->
+    <table>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Joe</td>
+            <td>Mama</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Ben</td>
+            <td>Dover</td>
+            <td>94</td>
+        </tr>
+    </table>
+
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <ul>
+        <li>Item A</li>
+        <li>Item B</li>
+        <li>Item C</li>
+    </ul>
+
+    <!-- forms -->
+
+    <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- radio buttons, checkboxes, dropdowns -->
+    <form action="/preferences" method="post">
+
+        <p>Choose your favorite fruit:</p>
+        <input type="radio" id="apple" name="fruit" value="apple">
+        <label for="apple">Apple</label><br>
+        <input type="radio" id="banana" name="fruit" value="banana">
+        <label for="banana">Banana</label><br>
+        <input type="radio" id="cherry" name="fruit" value="cherry">
+        <label for="cherry">Cherry</label><br><br>
+
+        <p>Select your hobbies:</p>
+        <input type="checkbox" id="reading" name="hobby" value="reading">
+        <label for="reading">Reading</label><br>
+        <input type="checkbox" id="traveling" name="hobby" value="traveling">
+        <label for="traveling">Traveling</label><br>
+        <input type="checkbox" id="gaming" name="hobby" value="gaming">
+        <label for="gaming">Gaming</label><br><br>
+
+        <label for="country">Choose your country:</label>
+        <select id="country" name="country">
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <form action="/index.html" method="post">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="city">City</label>
+            <input type="text" name="city" id="city">
+        </div>
+    </form>
+</body>
+</html>
